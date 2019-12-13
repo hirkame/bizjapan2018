@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* Start with Impulse部分 */
+.startwithimpulse-title{
+  max-width:100%;
+  height:106.2px;
+  display: block;
+  margin:auto;
+}
+/* How We Run部分 */
+.howwerun-wrapper{
+  background-color:#F5F5F5;
+}
+.howwerun-content-top{
+  position:relative;
+}
+.howwerun-image{
+  width:100%;
+  z-index: 2;
+}
+.howwerun-title{
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 3;
+}
+.howwerun-text{
+  z-index: 4;
+}
+
+/* 3つのVisionについて */
+.vision{
+  padding-bottom: 40px;
+}
+.vision-vector{
+  height: 3.9vw;
+  min-height:21px;
+  padding:17px 0;
+  margin-left: 0;
+  margin-right:auto;
+}
+.vision-vector-entre{
+  height:4.844vw;
+  min-height:26.46px;
+  padding:10.5px 0;
+}
+/* Projectsについて */
+.projects-wrapper{
+  background-color: #F5F5F5;
+}
+.projects-container, .companies-container, .partners-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin:80px auto 40px auto;
+}
+.company-example, .partner-example{
+  width:225px;
+  padding:0 8px;
+  text-align: left;
+}
+.project-image, .company-logo, .partner-logo{
+  width:100%;
+  max-width: 200px;
+  height:auto;
+  padding:0 8px;
+  margin: 0;
+  background-color: #F5F5F5;
+}
+.project-name{
+  text-align: left;
+  padding: 8px 0;
+  margin: 0;
+  font-family: Arial, Helvetica, "sans-serif";
+  font-size: 16px;
+  color: #707070;
+}
+.company-name, .partner-name{
+  text-align: left;
+  padding: 8px 0 26px 0;
+  margin: 0;
+  font-family: Arial, Helvetica, "sans-serif";
+  font-size: 16px;
+  color: #707070;
+}
+.project-discription{
+  text-align: left;
+  padding:0;
+  margin-top: 0;
+  margin-bottom:40px;
+  font-family: "游ゴシック","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-size: 10px;
+  color:#444444;
+}
+
+.know-more{
+  text-align: right;
+}
+.know-more-tag{
+  text-decoration: none;
+  font-family: "游ゴシック","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-size: 16px;
+  color: #444444;
+}

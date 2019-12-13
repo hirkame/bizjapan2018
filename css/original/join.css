@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.recruitment-image{
+  display: block;
+  width:100%;
+  height:auto;
+}
+.recruitment-steps{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin:70px auto;
+}
+.recruitment-step{
+  width:225px;
+  padding:0 10px;
+  text-align: left;
+}
+.recruitment-step-img{
+  display: block;
+  max-height:120px;
+  margin:0 auto 40px auto;
+  z-index: 2;
+}
+.recruitment-step-discription{
+  text-align: left;
+  z-index: 3;
+}
+/* .arrow{
+  object-fit: fill;
+  width:500px;
+  height:100px;
+  opacity: 0.1;
+  position:absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+} */

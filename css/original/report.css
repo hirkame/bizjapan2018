@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.reports-discription{
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+.annualreports{
+  list-style: none;
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-size: 16px;
+  color: #2C27B1;
+  display: block;
+  padding:0;
+  margin:auto;
+}
+.annualreport{
+  padding: 4px 0;
+}
+.currentreport{
+  font-size: 24px;
+  padding-top:0;
+  padding-bottom: 44px;
+}
